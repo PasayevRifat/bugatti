@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: sans-serif;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.left{
+    display: flex;
+    gap: 15px;
+}
+
+.right{
+    display: flex;
+    gap: 15px;
+
+}
+
+.center{
+    font-weight: 900;
+    
+}
+
+
+video{
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+
+
+
+
+
+
